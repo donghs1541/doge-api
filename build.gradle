@@ -28,3 +28,7 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+bootJar {
+	archivesBaseName='bookStore'
+	archiveFileName='bookStore.jar'
+}
